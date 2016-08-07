@@ -6,6 +6,8 @@ require 'slack-ruby-bot-server/rspec'
 
 Mongoid.load!(File.expand_path('../config/mongoid.yml', __dir__), ENV['RACK_ENV'])
 
+require 'database_cleaner'
+
 RSpec.configure do |config|
   config.before :suite do
     Mongo::Logger.logger.level = Logger::INFO
