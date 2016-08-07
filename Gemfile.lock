@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dblock/slack-ruby-bot-server.git
-  revision: 15f7ce58fd17f35e491fcb377b2203cb93aa8e6b
+  revision: dd23c2e5104820e434c6fbc67672a65853e92f17
   specs:
     slack-ruby-bot-server (0.4.0)
       celluloid-io
@@ -204,7 +204,7 @@ GEM
       giphy (~> 2.0.2)
       hashie
       slack-ruby-client (>= 0.6.0)
-    slack-ruby-client (0.7.5)
+    slack-ruby-client (0.7.6)
       activesupport
       faraday
       faraday_middleware
