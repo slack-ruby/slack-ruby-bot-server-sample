@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/dblock/rack-server-pages.git
+  revision: e77a45f208affed84b02b379b9c4cdb181826a8d
+  branch: next
+  specs:
+    rack-server-pages (0.0.6)
+      rack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -132,8 +140,6 @@ GEM
       rack (>= 0.4)
     rack-cors (0.4.0)
     rack-rewrite (1.5.1)
-    rack-server-pages (0.0.6)
-      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rails-dom-testing (2.0.1)
@@ -219,6 +225,7 @@ DEPENDENCIES
   fabrication
   faker
   newrelic-slack-ruby-bot
+  rack-server-pages!
   rake
   rspec
   slack-ruby-bot-server (~> 0.4.0)
@@ -229,4 +236,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.5
+   1.13.6
