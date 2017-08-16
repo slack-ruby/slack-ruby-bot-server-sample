@@ -4,16 +4,18 @@ ruby '2.3.1'
 
 gem 'mongoid'
 gem 'mongoid-scroll'
-gem 'slack-ruby-bot-server'
 gem 'newrelic-slack-ruby-bot'
+gem 'slack-ruby-bot-server'
 
 group :test do
-  gem 'rake'
-  gem 'rspec'
+  gem 'capybara'
+  gem 'database_cleaner'
   gem 'fabrication'
   gem 'faker'
+  gem 'rack-test'
+  gem 'rake'
+  gem 'rspec'
+  gem 'selenium-webdriver'
   gem 'vcr'
   gem 'webmock'
-  gem 'database_cleaner'
-  gem 'rack-test'
 end
