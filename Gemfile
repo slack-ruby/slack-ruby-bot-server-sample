@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.3.1'
 
-gem 'slack-ruby-bot-server', '~> 0.4.0'
-gem 'rack-server-pages', github: 'dblock/rack-server-pages', branch: 'next'
+gem 'mongoid'
+gem 'mongoid-scroll'
+gem 'slack-ruby-bot-server'
 gem 'newrelic-slack-ruby-bot'
 
 group :test do
@@ -14,4 +15,5 @@ group :test do
   gem 'vcr'
   gem 'webmock'
   gem 'database_cleaner'
+  gem 'rack-test'
 end
