@@ -6,6 +6,7 @@ gem 'mongoid'
 gem 'mongoid-scroll'
 gem 'newrelic-slack-ruby-bot'
 gem 'slack-ruby-bot-server'
+gem 'unicorn'
 
 group :test do
   gem 'capybara'
