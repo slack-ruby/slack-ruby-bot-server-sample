@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.5.3'
 
 gem 'mongoid'
 gem 'mongoid-scroll'
 gem 'newrelic-slack-ruby-bot'
 gem 'slack-ruby-bot-server'
+gem 'unicorn'
 
 group :test do
   gem 'capybara'
