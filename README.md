@@ -1,7 +1,6 @@
-Slack Ruby Bot Server
-=====================
+# Slack Ruby Bot Server
 
-[![Build Status](https://travis-ci.org/slack-ruby/slack-ruby-bot-server-sample.svg?branch=master)](https://travis-ci.org/slack-ruby/slack-ruby-bot-server-sample)
+[![test](https://github.com/slack-ruby/slack-ruby-bot-server-sample/actions/workflows/test.yml/badge.svg)](https://github.com/slack-ruby/slack-ruby-bot-server-sample/actions/workflows/test.yml)
 
 ### What is this?
 
