@@ -2,6 +2,10 @@
 
 [![test](https://github.com/slack-ruby/slack-ruby-bot-server-sample/actions/workflows/test.yml/badge.svg)](https://github.com/slack-ruby/slack-ruby-bot-server-sample/actions/workflows/test.yml)
 
+## _Deprecated_
+
+This sample is deprecated. You should not attempt to create new Slack applications from this sample. You should use [`slack-ruby-bot-server-events-sample`](https://github.com/slack-ruby/slack-ruby-bot-server-events-sample) instead.
+
 ### What is this?
 
 The [sample_app from slack-ruby-bot-server](https://github.com/dblock/slack-ruby-bot-server/tree/master/sample_app).
